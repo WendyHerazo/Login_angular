@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+//import { AuthService } from './service/auten.service';
+import { Component, inject } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+
 })
 export class AppComponent {
   title = 'entrevista';
+
+
+
+
 }
+
+
+
+
+
